@@ -1,0 +1,341 @@
+{
+  "versao": "0.1-proposta",
+  "status": "nao_aprovado_para_carga_definitiva",
+  "convencoes": {
+    "nomes_fisicos": "snake_case, sem espacos e sem acentos",
+    "rotulos_exibicao": "portugues claro, com nivel informacional explicito",
+    "valores_ausentes_categoricos": "usar categoria explicita controlada; nao usar NULL em classificacao_analise ou status de identificacao de politica",
+    "campos_auditoria": "preservar o sufixo _auditoria quando a informacao nao for destinada a filtros principais do usuario",
+    "identificadores_derivados": "usar prefixo id_ e sufixo _derivado; nao nomear como numero oficial quando a fonte nao fornece o identificador"
+  },
+  "campos_canonicos": [
+    {
+      "nome_canonico": "data_referencia",
+      "rotulo_exibicao": "Data de referência",
+      "dominio": "tempo",
+      "definicao": "Mês ou data que posiciona o registro no tempo analítico."
+    },
+    {
+      "nome_canonico": "data_contratacao",
+      "rotulo_exibicao": "Data da contratação",
+      "dominio": "tempo",
+      "definicao": "Data da efetiva contratação no sistema BNDES."
+    },
+    {
+      "nome_canonico": "unidade_observacao",
+      "rotulo_exibicao": "Unidade de observação",
+      "dominio": "linhagem",
+      "definicao": "Unidade estatística representada pela linha: desembolso mensal, operação automática, subcrédito ou contrato."
+    },
+    {
+      "nome_canonico": "fonte_base_origem",
+      "rotulo_exibicao": "Base de origem do registro",
+      "dominio": "linhagem",
+      "definicao": "Base tratada ou fonte pública da qual o registro foi derivado."
+    },
+    {
+      "nome_canonico": "produto_bndes",
+      "rotulo_exibicao": "Produto BNDES",
+      "dominio": "produto_instrumento",
+      "definicao": "Produto do BNDES que estabelece regras gerais de financiamento."
+    },
+    {
+      "nome_canonico": "tipo_instrumento_apoio",
+      "rotulo_exibicao": "Tipo do instrumento de apoio",
+      "dominio": "produto_instrumento",
+      "definicao": "Categoria oficial do instrumento de apoio nas políticas operacionais: Produto, Programa ou Fundo."
+    },
+    {
+      "nome_canonico": "instrumento_apoio",
+      "rotulo_exibicao": "Instrumento de apoio da política operacional",
+      "dominio": "produto_instrumento",
+      "definicao": "Nome do instrumento de apoio registrado na base de políticas operacionais."
+    },
+    {
+      "nome_canonico": "instrumento_financeiro",
+      "rotulo_exibicao": "Instrumento financeiro registrado",
+      "dominio": "produto_instrumento",
+      "definicao": "Campo das bases de desembolsos e operações que pode representar linha, programa ou fundo."
+    },
+    {
+      "nome_canonico": "linha_financiamento",
+      "rotulo_exibicao": "Linha de financiamento",
+      "dominio": "produto_instrumento",
+      "definicao": "Primeiro nível de divisão do instrumento de apoio na política operacional."
+    },
+    {
+      "nome_canonico": "sublinha_financiamento",
+      "rotulo_exibicao": "Sublinha de financiamento",
+      "dominio": "produto_instrumento",
+      "definicao": "Segundo nível de divisão do instrumento de apoio na política operacional."
+    },
+    {
+      "nome_canonico": "sublinha_financiamento_completa_origem",
+      "rotulo_exibicao": "Sublinha completa na fonte",
+      "dominio": "produto_instrumento",
+      "definicao": "Texto combinado preservado da fonte de políticas operacionais."
+    },
+    {
+      "nome_canonico": "subopcao_sublinha_financiamento",
+      "rotulo_exibicao": "Subopção da sublinha de financiamento",
+      "dominio": "produto_instrumento",
+      "definicao": "Terceiro nível de divisão da política operacional."
+    },
+    {
+      "nome_canonico": "modalidade_operacional",
+      "rotulo_exibicao": "Modalidade operacional: direta ou indireta",
+      "dominio": "modalidade",
+      "definicao": "Modalidade de operação do instrumento nas políticas operacionais."
+    },
+    {
+      "nome_canonico": "modalidade_apoio",
+      "rotulo_exibicao": "Modalidade de apoio: reembolsável ou não reembolsável",
+      "dominio": "modalidade",
+      "definicao": "Natureza reembolsável ou não reembolsável do apoio."
+    },
+    {
+      "nome_canonico": "forma_apoio",
+      "rotulo_exibicao": "Forma de apoio: direta ou indireta",
+      "dominio": "modalidade",
+      "definicao": "Forma pela qual o cliente solicita o financiamento ao BNDES."
+    },
+    {
+      "nome_canonico": "numero_contrato",
+      "rotulo_exibicao": "Número do contrato",
+      "dominio": "identificador",
+      "definicao": "Identificador do contrato não automático no sistema BNDES."
+    },
+    {
+      "nome_canonico": "id_subcredito_derivado",
+      "rotulo_exibicao": "Identificador derivado do subcrédito",
+      "dominio": "identificador",
+      "definicao": "Identificador técnico a definir; a fonte não fornece número oficial de subcrédito."
+    },
+    {
+      "nome_canonico": "codigo_municipio",
+      "rotulo_exibicao": "Código do município",
+      "dominio": "territorio",
+      "definicao": "Código municipal preservado como texto para manter zeros à esquerda."
+    },
+    {
+      "nome_canonico": "nome_municipio",
+      "rotulo_exibicao": "Município",
+      "dominio": "territorio",
+      "definicao": "Nome do município do investimento ou do registro do cliente."
+    },
+    {
+      "nome_canonico": "uf",
+      "rotulo_exibicao": "Unidade da Federação",
+      "dominio": "territorio",
+      "definicao": "Sigla da Unidade da Federação padronizada."
+    },
+    {
+      "nome_canonico": "setor_cnae",
+      "rotulo_exibicao": "Setor CNAE",
+      "dominio": "setor",
+      "definicao": "Agrupamento setorial baseado na CNAE utilizado pelo BNDES."
+    },
+    {
+      "nome_canonico": "subsetor_cnae_agrupado",
+      "rotulo_exibicao": "Subsetor CNAE agrupado",
+      "dominio": "setor",
+      "definicao": "Agrupamento de subsetores CNAE utilizado pelo BNDES."
+    },
+    {
+      "nome_canonico": "valor_desembolso_nominal",
+      "rotulo_exibicao": "Valor desembolsado nominal (R$)",
+      "dominio": "medida_monetaria",
+      "definicao": "Valor desembolsado em reais correntes; não deve ser somado ao valor contratado."
+    },
+    {
+      "nome_canonico": "valor_desembolso_real_jun2026",
+      "rotulo_exibicao": "Valor desembolsado a preços de junho de 2026 (R$)",
+      "dominio": "medida_monetaria",
+      "definicao": "Valor de desembolso corrigido pelo IPCA para junho de 2026."
+    },
+    {
+      "nome_canonico": "valor_contratado_nominal",
+      "rotulo_exibicao": "Valor contratado nominal (R$)",
+      "dominio": "medida_monetaria",
+      "definicao": "Valor contratado em reais correntes; não deve ser somado aos desembolsos."
+    },
+    {
+      "nome_canonico": "valor_contratado_real_jun2026",
+      "rotulo_exibicao": "Valor contratado a preços de junho de 2026 (R$)",
+      "dominio": "medida_monetaria",
+      "definicao": "Valor contratado corrigido pelo IPCA para junho de 2026."
+    },
+    {
+      "nome_canonico": "valor_desembolsado_nominal",
+      "rotulo_exibicao": "Valor desembolsado acumulado da operação (R$)",
+      "dominio": "medida_monetaria",
+      "definicao": "Valor já desembolsado informado na base de operações; não é o fato mensal de desembolsos."
+    },
+    {
+      "nome_canonico": "classificacao_analise",
+      "rotulo_exibicao": "Classificação da análise",
+      "dominio": "politica",
+      "definicao": "Classificação binária controlada: Verde estrito ou Demais operações."
+    },
+    {
+      "nome_canonico": "politica_identificada_no_registro",
+      "rotulo_exibicao": "Política identificada no registro",
+      "dominio": "politica",
+      "definicao": "Indicador de correspondência tecnicamente confirmada segundo o contrato metodológico vigente."
+    },
+    {
+      "nome_canonico": "politica_nao_identificada_no_registro",
+      "rotulo_exibicao": "Política não identificada no registro",
+      "dominio": "politica",
+      "definicao": "Complemento explícito da identificação confirmada; permanece em Demais operações e no denominador."
+    },
+    {
+      "nome_canonico": "status_identificacao_politica_auditoria",
+      "rotulo_exibicao": "Status técnico de identificação da política (auditoria)",
+      "dominio": "auditoria",
+      "definicao": "Status técnico legado preservado para rastreabilidade, não para comunicação principal."
+    },
+    {
+      "nome_canonico": "regra_identificacao_politica_auditoria",
+      "rotulo_exibicao": "Regra técnica de identificação da política (auditoria)",
+      "dominio": "auditoria",
+      "definicao": "Regra de pareamento preservada para auditoria; palavras-chave nunca promovem registros ao Verde estrito."
+    },
+    {
+      "nome_canonico": "classificacao_historica_auditoria",
+      "rotulo_exibicao": "Classificação histórica preservada (auditoria)",
+      "dominio": "auditoria",
+      "definicao": "Classificação anterior preservada exclusivamente para rastreabilidade."
+    },
+    {
+      "nome_canonico": "indice_ipca_mes",
+      "rotulo_exibicao": "Número-índice do IPCA no mês",
+      "dominio": "ipca",
+      "definicao": "Número-índice mensal do IPCA usado na atualização monetária."
+    },
+    {
+      "nome_canonico": "fator_correcao_ipca_jun2026",
+      "rotulo_exibicao": "Fator de correção pelo IPCA para junho de 2026",
+      "dominio": "ipca",
+      "definicao": "Razão entre o IPCA de junho de 2026 e o IPCA do mês do registro."
+    },
+    {
+      "nome_canonico": "data_posicao_fontes_recursos",
+      "rotulo_exibicao": "Data da posição das fontes de recursos",
+      "dominio": "fonte_recursos",
+      "definicao": "Data anual da posição da estrutura de capital e fontes de recursos."
+    },
+    {
+      "nome_canonico": "tipo_medida_fonte_recurso",
+      "rotulo_exibicao": "Tipo de medida da fonte de recursos",
+      "dominio": "fonte_recursos",
+      "definicao": "Distingue valor absoluto de participação; requer confirmação metodológica antes da carga definitiva."
+    }
+  ],
+  "renomeacoes_por_base": {
+    "desembolsos_mensais": {
+      "forma_de_apoio": "forma_apoio",
+      "produto": "produto_bndes",
+      "municipio": "nome_municipio",
+      "municipio_codigo": "codigo_municipio",
+      "desembolsos_reais": "valor_desembolso_nominal"
+    },
+    "operacoes_indiretas_automaticas": {
+      "cpf_cnpj": "cpf_cnpj_cliente",
+      "municipio": "nome_municipio",
+      "municipio_codigo": "codigo_municipio",
+      "data_da_contratacao": "data_contratacao",
+      "valor_da_operacao_em_reais": "valor_contratado_nominal",
+      "valor_desembolsado_reais": "valor_desembolsado_nominal",
+      "modalidade_de_apoio": "modalidade_apoio",
+      "forma_de_apoio": "forma_apoio",
+      "produto": "produto_bndes"
+    },
+    "operacoes_nao_automaticas": {
+      "cnpj": "cpf_cnpj_cliente",
+      "municipio": "nome_municipio",
+      "municipio_codigo": "codigo_municipio",
+      "numero_do_contrato": "numero_contrato",
+      "data_da_contratacao": "data_contratacao",
+      "valor_contratado_reais": "valor_contratado_nominal",
+      "valor_desembolsado_reais": "valor_desembolsado_nominal",
+      "modalidade_de_apoio": "modalidade_apoio",
+      "forma_de_apoio": "forma_apoio",
+      "produto": "produto_bndes"
+    },
+    "politicas_operacionais": {
+      "modalidade": "modalidade_operacional",
+      "tipo_de_apoio": "tipo_instrumento_apoio",
+      "instrumento_de_apoio_po": "instrumento_apoio",
+      "linha_po": "linha_financiamento",
+      "sub_linha_po": "sublinha_financiamento_completa_origem",
+      "sub_linha_po_1": "sublinha_financiamento",
+      "sub_linha_po_sub_opcao_po": "subopcao_sublinha_financiamento"
+    },
+    "fontes_recursos": {
+      "datas": "data_posicao_fontes_recursos"
+    },
+    "mapeamento_bndes_cnae": {},
+    "classificacao_politicas_analise": {
+      "modalidade": "modalidade_operacional",
+      "tipo_de_apoio": "tipo_instrumento_apoio",
+      "instrumento_de_apoio": "instrumento_apoio",
+      "linha": "linha_financiamento",
+      "sublinha": "sublinha_financiamento",
+      "classificacao_original": "classificacao_historica_auditoria"
+    },
+    "dim_concordancia_historica": {
+      "produto": "produto_bndes",
+      "pareamento_confirmado": "politica_identificada_no_registro",
+      "status_pareamento": "status_identificacao_politica_auditoria",
+      "regra_pareamento": "regra_identificacao_politica_auditoria",
+      "classificacao_original": "classificacao_historica_auditoria"
+    },
+    "desembolsos_mensais_analitico": {
+      "forma_de_apoio": "forma_apoio",
+      "produto": "produto_bndes",
+      "municipio": "nome_municipio",
+      "municipio_codigo": "codigo_municipio",
+      "desembolsos_reais": "valor_desembolso_nominal_origem",
+      "base_origem": "fonte_base_origem",
+      "unidade_analise": "unidade_observacao",
+      "valor_nominal": "valor_desembolso_nominal",
+      "classificacao_original": "classificacao_historica_auditoria",
+      "status_pareamento": "status_identificacao_politica_auditoria",
+      "regra_pareamento": "regra_identificacao_politica_auditoria",
+      "pareamento_confirmado": "politica_identificada_no_registro",
+      "ipca_mes": "indice_ipca_mes",
+      "fator_ipca_jun2026": "fator_correcao_ipca_jun2026",
+      "valor_real_jun2026": "valor_desembolso_real_jun2026"
+    },
+    "operacoes_bndes_analitica": {
+      "base_origem": "fonte_base_origem",
+      "unidade_analise": "unidade_observacao",
+      "numero_do_contrato": "numero_contrato",
+      "data_da_contratacao": "data_contratacao",
+      "valor_nominal": "valor_contratado_nominal",
+      "valor_desembolsado_reais": "valor_desembolsado_nominal",
+      "modalidade_de_apoio": "modalidade_apoio",
+      "forma_de_apoio": "forma_apoio",
+      "produto": "produto_bndes",
+      "municipio": "nome_municipio",
+      "municipio_codigo": "codigo_municipio",
+      "classificacao_original": "classificacao_historica_auditoria",
+      "status_pareamento": "status_identificacao_politica_auditoria",
+      "regra_pareamento": "regra_identificacao_politica_auditoria",
+      "pareamento_confirmado": "politica_identificada_no_registro",
+      "ipca_mes": "indice_ipca_mes",
+      "fator_ipca_jun2026": "fator_correcao_ipca_jun2026",
+      "valor_real_jun2026": "valor_contratado_real_jun2026"
+    },
+    "contratos_nao_automaticos_analitico": {
+      "numero_do_contrato": "numero_contrato",
+      "data_da_contratacao": "data_contratacao",
+      "municipio": "nome_municipio"
+    },
+    "ipca_mensal": {
+      "ipca_mes": "indice_ipca_mes",
+      "fator_ipca_jun2026": "fator_correcao_ipca_jun2026"
+    }
+  }
+}

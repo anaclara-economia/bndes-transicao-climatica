@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "verified_on": "2026-09-01",
+  "sources": [
+    {
+      "id": "bndes_operacoes_financiamento",
+      "publisher": "BNDES",
+      "title": "Operações de Financiamento",
+      "url": "https://dadosabertos.bndes.gov.br/dataset/operacoes-financiamento",
+      "license": "ODbL conforme página do conjunto em 2026-09-01",
+      "redistributed": false
+    },
+    {
+      "id": "bndes_desembolsos_mensais",
+      "publisher": "BNDES",
+      "title": "Desembolsos Mensais",
+      "url": "https://dadosabertos.bndes.gov.br/dataset/desembolsos-mensais",
+      "license": "ODbL conforme página do conjunto em 2026-09-01",
+      "redistributed": false
+    },
+    {
+      "id": "bndes_politicas_operacionais",
+      "publisher": "BNDES",
+      "title": "Políticas Operacionais",
+      "url": "https://dadosabertos.bndes.gov.br/dataset/politicas-operacionais",
+      "license": "ODbL conforme página do conjunto em 2026-09-01",
+      "redistributed": false
+    },
+    {
+      "id": "bndes_fontes_recursos",
+      "publisher": "BNDES",
+      "title": "Fontes de recursos do BNDES",
+      "url": "https://dadosabertos.bndes.gov.br/dataset/fontes-recursos",
+      "license": "ODbL conforme página do conjunto em 2026-09-01",
+      "redistributed": false,
+      "note": "A página informa ajustes técnicos na base."
+    },
+    {
+      "id": "ibge_ipca_1737",
+      "publisher": "IBGE",
+      "title": "IPCA - Tabela SIDRA 1737",
+      "url": "https://sidra.ibge.gov.br/tabela/1737",
+      "license": "Termos do IBGE",
+      "redistributed": false
+    },
+    {
+      "id": "ibge_malhas_2024",
+      "publisher": "IBGE",
+      "title": "Malhas territoriais 2024",
+      "url": "https://www.ibge.gov.br/geociencias/organizacao-do-territorio/malhas-territoriais/15774-malhas.html",
+      "license": "Termos do IBGE",
+      "redistributed": false,
+      "note": "URL registrada; a revalidação automatizada retornou HTTP 403 em 2026-09-01."
+    },
+    {
+      "id": "artigo_cfcgs",
+      "publisher": "CFC-GS",
+      "title": "O BNDES no financiamento da transição climática brasileira: trajetória, estrutura e distribuição dos recursos",
+      "url": "https://cfc-gs.com.br/pt/working-papers-geral/o-bndes-no-financiamento-da-transicao-climatica-brasileira-trajetoria-estrutura-e-distribuicao-dos-recursos/",
+      "license": "Não relicenciado por este repositório",
+      "redistributed": false
+    }
+  ]
+}

@@ -1,0 +1,50 @@
+# Ambiente e caches
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.vscode/
+.idea/
+
+# Segredos e configurações locais
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*credential*
+*secret*
+
+# Dados locais: somente o README é público
+data/*
+!data/README.md
+
+# Bancos, microdados, modelos e pacotes grandes
+*.duckdb
+*.duckdb.wal
+*.parquet
+*.feather
+*.pbix
+*.abf
+*.zip
+*.7z
+*.rar
+
+# Documentos e mídia não selecionados
+*.docx
+*.pdf
+*.ogg
+*.wav
+*.mp3
+
+# Temporários e backups
+*.tmp
+*.bak
+*.backup
+~$*
+tmp/
+backup/
+backups/

@@ -1,0 +1,41 @@
+﻿painel,universo,recorte,posicao,codigo_municipio,municipio,uf,rotulo_municipio,valor_referencia_real_jun2026,participacao_total_pct,quantidade_registros
+"A. Desembolsos — média anual, 2002–2025",Desembolsos,media_2002_2025,1,3550308,São Paulo,SP,São Paulo (SP),154998889.32740346,6.847183713710554,148
+"A. Desembolsos — média anual, 2002–2025",Desembolsos,media_2002_2025,2,1302603,Manaus,AM,Manaus (AM),50400458.473210834,2.2264752987510676,50
+"A. Desembolsos — média anual, 2002–2025",Desembolsos,media_2002_2025,3,3304524,Rio das Ostras,RJ,Rio das Ostras (RJ),29093031.795777168,1.2852049092669833,5
+"A. Desembolsos — média anual, 2002–2025",Desembolsos,media_2002_2025,4,3513504,Cubatão,SP,Cubatão (SP),24018813.288500335,1.0610477783765495,15
+"A. Desembolsos — média anual, 2002–2025",Desembolsos,media_2002_2025,5,5103403,Cuiabá,MT,Cuiabá (MT),23796984.342375293,1.0512483304338704,5
+"A. Desembolsos — média anual, 2002–2025",Desembolsos,media_2002_2025,6,5102702,Canarana,MT,Canarana (MT),22130201.153465834,0.9776170240747634,6
+"A. Desembolsos — média anual, 2002–2025",Desembolsos,media_2002_2025,7,3520442,Ilha Solteira,SP,Ilha Solteira (SP),21717267.024451792,0.9593753717939665,2
+"A. Desembolsos — média anual, 2002–2025",Desembolsos,media_2002_2025,8,3304557,Rio de Janeiro,RJ,Rio de Janeiro (RJ),21522495.660614084,0.9507712113631799,174
+"A. Desembolsos — média anual, 2002–2025",Desembolsos,media_2002_2025,9,3104502,Arinos,MG,Arinos (MG),21097114.95666117,0.931979722979797,1
+"A. Desembolsos — média anual, 2002–2025",Desembolsos,media_2002_2025,10,3509007,Caieiras,SP,Caieiras (SP),19764911.84532225,0.8731287241958874,26
+B. Desembolsos — 2025,Desembolsos,ano_2025,1,3550308,São Paulo,SP,São Paulo (SP),1846042847.760095,15.591130757393644,16
+B. Desembolsos — 2025,Desembolsos,ano_2025,2,3513504,Cubatão,SP,Cubatão (SP),570018587.450865,4.814208046077928,10
+B. Desembolsos — 2025,Desembolsos,ano_2025,3,3520442,Ilha Solteira,SP,Ilha Solteira (SP),521214408.586843,4.402022416096776,2
+B. Desembolsos — 2025,Desembolsos,ano_2025,4,3104502,Arinos,MG,Arinos (MG),506330758.959868,4.276319522600581,1
+B. Desembolsos — 2025,Desembolsos,ano_2025,5,5102702,Canarana,MT,Canarana (MT),380243650.301305,3.2114251728824157,5
+B. Desembolsos — 2025,Desembolsos,ano_2025,6,1302603,Manaus,AM,Manaus (AM),318143979.296812,2.686949756834,12
+B. Desembolsos — 2025,Desembolsos,ano_2025,7,4104303,Campo Mourão,PR,Campo Mourão (PR),288331342.147902,2.435161059418136,2
+B. Desembolsos — 2025,Desembolsos,ano_2025,8,3536505,Paulínia,SP,Paulínia (SP),250658791.564291,2.116989862673554,2
+B. Desembolsos — 2025,Desembolsos,ano_2025,9,2400208,Açu,RN,Açu (RN),224769044.235918,1.898332730006066,1
+B. Desembolsos — 2025,Desembolsos,ano_2025,10,5106778,Porto Alegre do Norte,MT,Porto Alegre do Norte (MT),209282138.44717,1.7675349137621035,1
+"C. Valor contratado — média anual, 2002–2025",Contratações,media_2002_2025,1,3550308,São Paulo,SP,São Paulo (SP),237165024.25338376,6.282892416039676,68
+"C. Valor contratado — média anual, 2002–2025",Contratações,media_2002_2025,2,1302603,Manaus,AM,Manaus (AM),53462833.925147586,1.4163185944712755,41
+"C. Valor contratado — média anual, 2002–2025",Contratações,media_2002_2025,3,3513504,Cubatão,SP,Cubatão (SP),30378619.346698705,0.804779700143354,3
+"C. Valor contratado — média anual, 2002–2025",Contratações,media_2002_2025,4,3304524,Rio das Ostras,RJ,Rio das Ostras (RJ),29322108.574969873,0.7767909883336928,1
+"C. Valor contratado — média anual, 2002–2025",Contratações,media_2002_2025,5,5103403,Cuiabá,MT,Cuiabá (MT),26314972.29043092,0.697126991436992,2
+"C. Valor contratado — média anual, 2002–2025",Contratações,media_2002_2025,6,4104303,Campo Mourão,PR,Campo Mourão (PR),24842816.605828043,0.6581271607699742,3
+"C. Valor contratado — média anual, 2002–2025",Contratações,media_2002_2025,7,3502101,Andradina,SP,Andradina (SP),24758588.368266374,0.6558958159219784,5
+"C. Valor contratado — média anual, 2002–2025",Contratações,media_2002_2025,8,3520442,Ilha Solteira,SP,Ilha Solteira (SP),22884429.05332658,0.6062462464571954,6
+"C. Valor contratado — média anual, 2002–2025",Contratações,media_2002_2025,9,5107065,Querência,MT,Querência (MT),22784187.133332875,0.603590672765921,1
+"C. Valor contratado — média anual, 2002–2025",Contratações,media_2002_2025,10,5102702,Canarana,MT,Canarana (MT),22569304.35164225,0.5978980736836081,2
+D. Valor contratado — 2025,Contratações,ano_2025,1,3104502,Arinos,MG,Arinos (MG),522423814.601763,3.368350278627701,1
+D. Valor contratado — 2025,Contratações,ano_2025,2,5218508,Quirinópolis,GO,Quirinópolis (GO),522423814.601763,3.368350278627701,1
+D. Valor contratado — 2025,Contratações,ano_2025,3,3550308,São Paulo,SP,São Paulo (SP),425805522.019016,2.7453996327240286,8
+D. Valor contratado — 2025,Contratações,ano_2025,4,3536505,Paulínia,SP,Paulínia (SP),419011161.242807,2.701592695953571,2
+D. Valor contratado — 2025,Contratações,ano_2025,5,4106902,Curitiba,PR,Curitiba (PR),390569860.726515,2.5182161732129034,3
+D. Valor contratado — 2025,Contratações,ano_2025,6,3526803,Lençóis Paulista,SP,Lençóis Paulista (SP),332455170.466271,2.143519178820193,1
+D. Valor contratado — 2025,Contratações,ano_2025,7,1302603,Manaus,AM,Manaus (AM),254024765.613359,1.6378357305253033,10
+D. Valor contratado — 2025,Contratações,ano_2025,8,5205471,Chapadão do Céu,GO,Chapadão do Céu (GO),249341377.849703,1.607639384115143,1
+D. Valor contratado — 2025,Contratações,ano_2025,9,3138625,Limeira do Oeste,MG,Limeira do Oeste (MG),230210352.291887,1.484291264318527,1
+D. Valor contratado — 2025,Contratações,ano_2025,10,3538006,Pindamonhangaba,SP,Pindamonhangaba (SP),221885932.232919,1.4306192037398704,1

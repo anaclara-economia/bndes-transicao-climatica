@@ -1,0 +1,26 @@
+{
+  "portal_dados_abertos": "https://dadosabertos.bndes.gov.br",
+  "repositorio_exemplos": "https://github.com/bndes/dados-abertos-exemplos",
+  "bases_iniciais": [
+    {
+      "nome": "Operacoes de Financiamento",
+      "url": "https://dadosabertos.bndes.gov.br/dataset/operacoes-financiamento",
+      "uso_previsto": "Base principal para identificar operacoes, valores, setores, estados e municipios."
+    },
+    {
+      "nome": "Desembolsos Mensais",
+      "url": "https://dadosabertos.bndes.gov.br/dataset/desembolsos-mensais",
+      "uso_previsto": "Serie mensal para analise temporal e comparacao entre total e recorte verde."
+    },
+    {
+      "nome": "Politicas Operacionais",
+      "url": "https://dadosabertos.bndes.gov.br/dataset/politicas-operacionais",
+      "uso_previsto": "Apoio para mapear linhas, instrumentos e condicoes de financiamento."
+    },
+    {
+      "nome": "Fontes de Recursos",
+      "url": "https://dadosabertos.bndes.gov.br/dataset/fontes-recursos",
+      "uso_previsto": "Apoio para identificar fundos e fontes associadas aos desembolsos."
+    }
+  ]
+}

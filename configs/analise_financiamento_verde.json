@@ -1,0 +1,54 @@
+{
+  "periodo_inicio": "2002-01",
+  "ultimo_ano_completo": 2025,
+  "ano_parcial": 2026,
+  "ipca_mes_referencia": "2026-06",
+  "ipca_tabela_sidra": 1737,
+  "ipca_variavel_numero_indice": 2266,
+  "classificacao_verde": "Verde estrito",
+  "classificacao_complementar": "Demais operações",
+  "limite_cobertura_publicacao": 0.95,
+  "limite_sensibilidade_pontos_percentuais": 0.5,
+  "municipios_invalidos": [
+    "DIVERSOS",
+    "SEM MUNICÍPIO",
+    "SEM MUNICIPIO"
+  ],
+  "codigos_municipais_invalidos": [
+    "0000000",
+    "9999999"
+  ],
+  "ufs_invalidas": [
+    "IE"
+  ],
+  "fonte_ipca": "https://sidra.ibge.gov.br/tabela/1737",
+  "portal_dados_bndes": "https://dadosabertos.bndes.gov.br",
+  "status_contrato_metodologico": "v1_aprovado_2026-07-16",
+  "identificacao_politica": {
+    "nivel_observacao": "combinacao_produto_instrumento",
+    "niveis_validos": [
+      "politica_individual_identificada",
+      "combinacao_produto_instrumento_confirmada",
+      "nao_identificada"
+    ],
+    "identificacao_individual_exige_id": true,
+    "combinacoes_confirmadas": 80,
+    "combinacoes_nao_identificadas": 405,
+    "politicas_classificadas": 242
+  },
+  "chave_operacao_automatica": {
+    "tipo": "chave_tecnica_snapshot",
+    "identificador_oficial": false,
+    "duplicatas_exatas_cenario_principal": "preservadas",
+    "duplicatas_exatas": 193530,
+    "cenario_sensibilidade": "sem_duplicatas_exatas"
+  },
+  "chave_subcredito": {
+    "tipo": "id_subcredito_derivado",
+    "identificador_oficial": false
+  },
+  "fontes_recursos": {
+    "status": "staging_sem_relacionamento",
+    "motivo": "tipo_de_medida_unidade_e_periodicidade_pendentes"
+  }
+}

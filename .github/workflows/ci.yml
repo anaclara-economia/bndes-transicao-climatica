@@ -1,0 +1,33 @@
+name: ci
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout sem persistir credenciais
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - name: Instalar dependências mínimas de validação
+        run: |
+          python -m pip install --upgrade pip
+          python -m pip install pandas==3.0.3 numpy==2.5.0 nbformat==5.10.4
+      - name: Auditar lista positiva, segurança e manifestos
+        run: python scripts/check_repository.py
+      - name: Executar testes sintéticos
+        env:
+          PYTHONPATH: src
+        run: python -m unittest discover -s tests -v

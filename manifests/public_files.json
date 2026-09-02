@@ -1,0 +1,523 @@
+{
+  "schema_version": "1.0",
+  "generated_on": "2026-09-01",
+  "excludes_self": "manifests/public_files.json",
+  "files": [
+    {
+      "path": ".gitattributes",
+      "size_bytes": 70,
+      "sha256": "e634d25c209a9d1143a43bd8974ae9d8e86ece44bdb148bd4271d7394f43bc96",
+      "license_scope": "MIT"
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size_bytes": 864,
+      "sha256": "759bf41a7cad611d189201e366f795158c82bcb5de834662102ad5396b2b0da6",
+      "license_scope": "MIT"
+    },
+    {
+      "path": ".gitignore",
+      "size_bytes": 559,
+      "sha256": "3119f4365b64dd9b237a513058f20343c3cb4d0c7bce512a2248bde38b2b6ac1",
+      "license_scope": "CC-BY-4.0"
+    },
+    {
+      "path": "CITATION.cff",
+      "size_bytes": 402,
+      "sha256": "15d5ba62d3c2b06b0a0d9e03b3b3b6dff0126c1728cbc595ce98f929005054bf",
+      "license_scope": "CC-BY-4.0"
+    },
+    {
+      "path": "configs/analise_financiamento_verde.json",
+      "size_bytes": 1647,
+      "sha256": "d317407a074506d2786f0807ac5801f04454c09121759a31837fb073f01de6db",
+      "license_scope": "MIT"
+    },
+    {
+      "path": "configs/dicionario_nomenclatura.json",
+      "size_bytes": 14608,
+      "sha256": "d4229405c438b3357885dbc995708ae56f5a418cfc08f78e039f661433b4c95a",
+      "license_scope": "MIT"
+    },
+    {
+      "path": "configs/fontes_bndes.json",
+      "size_bytes": 1085,
+      "sha256": "e789dcfce2f1acac94a8c255b08014f0a063294958178e926c8f00470a4e541c",
+      "license_scope": "MIT"
+    },
+    {
+      "path": "data/README.md",
+      "size_bytes": 558,
+      "sha256": "dd93557cd5d6f591d404a977eca05ef454176c430affdacfa3feba1fdb0ed6c0",
+      "license_scope": "CC-BY-4.0"
+    },
+    {
+      "path": "docs/dicionario.md",
+      "size_bytes": 1028,
+      "sha256": "3072beb7ce209281ec456a523fc9cdb914f33ad9eddd6d8d9c37374aa6c480b1",
+      "license_scope": "CC-BY-4.0"
+    },
+    {
+      "path": "docs/fontes.md",
+      "size_bytes": 754,
+      "sha256": "ab041ee05fc72f444d38672f66882fea2d433e4ce66721676672f5a48b413ea2",
+      "license_scope": "CC-BY-4.0"
+    },
+    {
+      "path": "docs/metodologia.md",
+      "size_bytes": 2035,
+      "sha256": "4fc9bb00bb7cd9285d5ca03d6d85dfc4718187010176c7b1bfa1bdc309d0718f",
+      "license_scope": "CC-BY-4.0"
+    },
+    {
+      "path": "docs/privacidade_e_dados.md",
+      "size_bytes": 963,
+      "sha256": "22bf56a9d70ae66a358b66847a82fde0b0716cd0329edf66e26991d7dcf59bcf",
+      "license_scope": "CC-BY-4.0"
+    },
+    {
+      "path": "docs/qualidade_e_linhagem.md",
+      "size_bytes": 842,
+      "sha256": "c686dedb41dd20fd87c9d159aa9ff16585c33018f92d91fbf8ad6bb1a7231bb6",
+      "license_scope": "CC-BY-4.0"
+    },
+    {
+      "path": "docs/relatorio_validacao.md",
+      "size_bytes": 1605,
+      "sha256": "b7157f2d2d28c2aef3c88befb50ee0faac85345c7981866dbfcffbaebd028377",
+      "license_scope": "CC-BY-4.0"
+    },
+    {
+      "path": "docs/reprodutibilidade.md",
+      "size_bytes": 1445,
+      "sha256": "e7243e8c265413187d2f56aa68f21ba947f53b74ac9ac2526738e2633e405383",
+      "license_scope": "CC-BY-4.0"
+    },
+    {
+      "path": "LICENSE.md",
+      "size_bytes": 828,
+      "sha256": "ce815a6a088a48a0a0288e691a09992b5125220d0fe47efc111a10d66520a3c6",
+      "license_scope": "CC-BY-4.0"
+    },
+    {
+      "path": "LICENSES/CC-BY-4.0.txt",
+      "size_bytes": 18657,
+      "sha256": "9ba9550ad48438d0836ddab3da480b3b69ffa0aac7b7878b5a0039e7ab429411",
+      "license_scope": "CC0-1.0 (texto da licença, conforme declaração da Creative Commons)"
+    },
+    {
+      "path": "LICENSES/MIT.txt",
+      "size_bytes": 1114,
+      "sha256": "995c984cfafa99f7670440805312a73afe384ccbcbc1afca32194c71dcee2083",
+      "license_scope": "texto da licença MIT"
+    },
+    {
+      "path": "manifests/input_snapshot.json",
+      "size_bytes": 984,
+      "sha256": "18b912a16b592b855983009b614bedfae7b4fada717ab69522977db7b92a1126",
+      "license_scope": "CC-BY-4.0"
+    },
+    {
+      "path": "manifests/results.json",
+      "size_bytes": 24067,
+      "sha256": "61177ad8dc1b654a41146fbb93ca853fbdd3eda6a65f2762d15b50c5dc94bd02",
+      "license_scope": "CC-BY-4.0"
+    },
+    {
+      "path": "manifests/sources.json",
+      "size_bytes": 2434,
+      "sha256": "be85383e06d56524995eb18fd69aba5de8a20305c48c3a3afc2aced0811825a2",
+      "license_scope": "CC-BY-4.0"
+    },
+    {
+      "path": "notebooks/01_catalogo_fontes_bndes.ipynb",
+      "size_bytes": 22170,
+      "sha256": "11aa7ec7f745dae31973f9be38dfd657ef6fa8cd879744e3ff1663a7fd006a96",
+      "license_scope": "MIT"
+    },
+    {
+      "path": "notebooks/02_download_dados.ipynb",
+      "size_bytes": 17702,
+      "sha256": "5d95a705b2290433c52e57a86f2fcb365cfb9a3fa8601551baaea49a31ffdb09",
+      "license_scope": "MIT"
+    },
+    {
+      "path": "notebooks/03_armazenamento_dados.ipynb",
+      "size_bytes": 11456,
+      "sha256": "6dd1d64d4b299ef7d4b2d04a62b002b82108a9b734ab641f38bb503e9b87e0ed",
+      "license_scope": "MIT"
+    },
+    {
+      "path": "notebooks/04_limpeza_tratamento_dados.ipynb",
+      "size_bytes": 164991,
+      "sha256": "683c0cda4207e7f3305fa4ed5fb20619e8d5605b21ea7e51842927a12521f550",
+      "license_scope": "MIT"
+    },
+    {
+      "path": "notebooks/05_analise_descritiva.ipynb",
+      "size_bytes": 12986,
+      "sha256": "8c98e7bad1c3a2970f65bc3190a2669b50b22d314d15321b08fcfef68cdb5c5f",
+      "license_scope": "MIT"
+    },
+    {
+      "path": "pyproject.toml",
+      "size_bytes": 922,
+      "sha256": "6e4110b30fd5d638b6ed77c9c709df499bae8544584769101a9b546c1191ddcf",
+      "license_scope": "MIT"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 3867,
+      "sha256": "247aa43d8a56a6a121ab63d1d7946efdaef69f703aafc326e6edc2317e7b8433",
+      "license_scope": "CC-BY-4.0"
+    },
+    {
+      "path": "requirements.lock.txt",
+      "size_bytes": 306,
+      "sha256": "11b696e531679b931f2d04a58fb3ad9930777d8e829ce96c743c541e59c86143",
+      "license_scope": "MIT"
+    },
+    {
+      "path": "results/figures/fundo_clima/FC01_participacao_anual_fundo_clima_no_verde_estrito_2013_2025.png",
+      "size_bytes": 352937,
+      "sha256": "8a20025d125f3299b7990a678bf8d590e986de035223c29c8274ad5a8bb78d2e",
+      "license_scope": "CC-BY-4.0"
+    },
+    {
+      "path": "results/figures/fundo_clima/FC02_evolucao_e_indice_fundo_clima_2013_2025.png",
+      "size_bytes": 344742,
+      "sha256": "792d23e639ffd841bf3158329a51ef54e07a6f2a1ec7d77e14fc4dc544dbb574",
+      "license_scope": "CC-BY-4.0"
+    },
+    {
+      "path": "results/figures/fundo_clima/FC03_composicao_operacional_fundo_clima_produto_bndes_2013_2025.png",
+      "size_bytes": 342169,
+      "sha256": "da73a32844038be4ffce9a986f76cc87ab9ec710326eab1b099d6e0fb12cc281",
+      "license_scope": "CC-BY-4.0"
+    },
+    {
+      "path": "results/figures/fundo_clima/FC04_participacao_anual_setor_bndes_fundo_clima_2013_2025.png",
+      "size_bytes": 249264,
+      "sha256": "aae4b88b42d508c5b193ed8a0c2aa7010128e53c7c71ab402784a735ffc0065f",
+      "license_scope": "CC-BY-4.0"
+    },
+    {
+      "path": "results/figures/fundo_clima/FC05_distribuicao_uf_fundo_clima_2013_2025.png",
+      "size_bytes": 831488,
+      "sha256": "e755d2153ac3d89f4315850ab4713f1c57cafb4748c45e9b279b428514cd0f10",
+      "license_scope": "CC-BY-4.0"
+    },
+    {
+      "path": "results/figures/verde_estrito/VE01_participacao_anual_verde_estrito_2002_2025.png",
+      "size_bytes": 330650,
+      "sha256": "165a90130bf94497161fcd1650846793599a209e2e107a7873a906f36f2ed27c",
+      "license_scope": "CC-BY-4.0"
+    },
+    {
+      "path": "results/figures/verde_estrito/VE02_valor_real_anual_verde_estrito_2002_2025.png",
+      "size_bytes": 367141,
+      "sha256": "9ba263437b04a0f9af44b872c3b350c56bf1c7eff45163757f1251805a3693c5",
+      "license_scope": "CC-BY-4.0"
+    },
+    {
+      "path": "results/figures/verde_estrito/VE03_indice_evolucao_verde_estrito_2006_2025.png",
+      "size_bytes": 330938,
+      "sha256": "32cd108399ded7e7689a126baed113fbb47caaef65ba03486d3f4c6fa2977f17",
+      "license_scope": "CC-BY-4.0"
+    },
+    {
+      "path": "results/figures/verde_estrito/VE04_distribuicao_uf_verde_estrito_2002_2025.png",
+      "size_bytes": 839290,
+      "sha256": "5ef6b67f1f52088e9a3fd8669268d08b763619a193e689ae1438ce41840b1e46",
+      "license_scope": "CC-BY-4.0"
+    },
+    {
+      "path": "results/figures/verde_estrito/VE05_top10_municipios_verde_estrito_2002_2025_e_2025.png",
+      "size_bytes": 1652366,
+      "sha256": "29fa1f24f112f2c89214f872d00b94b4e7659dca9b87631c79a872f65d73b7db",
+      "license_scope": "CC-BY-4.0"
+    },
+    {
+      "path": "results/figures/verde_estrito/VE06_participacao_anual_setor_bndes_verde_estrito_2002_2025.png",
+      "size_bytes": 783562,
+      "sha256": "9773bd8ed47c6dfaabfca23065f5e03ae9e3a1d3443cc10ab2f8792a84c08a47",
+      "license_scope": "CC-BY-4.0"
+    },
+    {
+      "path": "results/figures/verde_estrito/VE07A_media_anual_desembolsos_verde_estrito_setor_uf_2002_2025.png",
+      "size_bytes": 1387916,
+      "sha256": "5ab2e8eb1f9fa78bf10efc9876f87e88e5a9c664b038340d653b6dc0488253cd",
+      "license_scope": "CC-BY-4.0"
+    },
+    {
+      "path": "results/figures/verde_estrito/VE07B_media_anual_valor_contratado_verde_estrito_setor_uf_2002_2025.png",
+      "size_bytes": 1393807,
+      "sha256": "4864b30dac8a346490803ea523941b63c3bae390239488b74e5258ecf214d0bf",
+      "license_scope": "CC-BY-4.0"
+    },
+    {
+      "path": "results/figures/verde_estrito/VE09_composicao_verde_estrito_por_bloco_tematico_2002_2025.png",
+      "size_bytes": 345623,
+      "sha256": "4a9bf264711960d6d2bf05f1d41b0b3478350fa64a3a4fb55ac9772e57fa4ce5",
+      "license_scope": "CC-BY-4.0"
+    },
+    {
+      "path": "results/figures/verde_estrito/VE10A_distribuicao_uf_desembolsos_verde_estrito_por_bloco_2002_2025.png",
+      "size_bytes": 1707193,
+      "sha256": "51f7a3bcdd7d859d9354ab332226118aaebef3cc1fcffbb34c2683807795a53e",
+      "license_scope": "CC-BY-4.0"
+    },
+    {
+      "path": "results/figures/verde_estrito/VE10B_distribuicao_uf_valor_contratado_verde_estrito_por_bloco_2002_2025.png",
+      "size_bytes": 1700280,
+      "sha256": "4f25ba90644ca2d477fceeb55c801048c34285d5f647127ba00838516206e6b4",
+      "license_scope": "CC-BY-4.0"
+    },
+    {
+      "path": "results/tables/fundo_clima/FC01_FC02_serie_anual_fundo_clima_2013_2025.csv",
+      "size_bytes": 2460,
+      "sha256": "748ad3c5edb23c5fc1823fdd83c137a49b2249a2535b2fabcf7870f8989152bb",
+      "license_scope": "CC-BY-4.0"
+    },
+    {
+      "path": "results/tables/fundo_clima/FC03_composicao_operacional_fundo_clima_2013_2025.csv",
+      "size_bytes": 762,
+      "sha256": "654ce8173e51f3d0842f9d79d24bb8a2a56d561e2796c047bd19936962471ca7",
+      "license_scope": "CC-BY-4.0"
+    },
+    {
+      "path": "results/tables/fundo_clima/FC04_setores_bndes_fundo_clima_2013_2025.csv",
+      "size_bytes": 8348,
+      "sha256": "e3c41ed9e7201f70d0a59989184258bb7db6064e889cdec178d724f1b14955af",
+      "license_scope": "CC-BY-4.0"
+    },
+    {
+      "path": "results/tables/fundo_clima/FC05_distribuicao_uf_fundo_clima_2013_2025.csv",
+      "size_bytes": 4816,
+      "sha256": "93168c8fa152e58e89531035fda05cb73e7eba3058d63365f139b454e6449707",
+      "license_scope": "CC-BY-4.0"
+    },
+    {
+      "path": "results/tables/fundo_clima/FC06_distribuicao_setor_uf_2013_2025.csv",
+      "size_bytes": 3679,
+      "sha256": "1f43621eab780a7cd367b971a004dc8d9bff963b118f9e317797a585e3fbc491",
+      "license_scope": "CC-BY-4.0"
+    },
+    {
+      "path": "results/tables/fundo_clima/FC07_modalidades_valor_aprovado_2024_2025.csv",
+      "size_bytes": 1450,
+      "sha256": "23696d1c163fee59a72657335aa2aec7b89a1ca01649500973e0a8fa6e6e0006",
+      "license_scope": "CC-BY-4.0"
+    },
+    {
+      "path": "results/tables/verde_estrito/VE01_participacao_anual_verde_estrito_2002_2025.csv",
+      "size_bytes": 4577,
+      "sha256": "b9fa5c0f0f46f88e4f5b139a6ff0fea0e0dcb499526bc9e4d4efd08504ad735f",
+      "license_scope": "CC-BY-4.0"
+    },
+    {
+      "path": "results/tables/verde_estrito/VE02_valor_real_anual_verde_estrito_2002_2025.csv",
+      "size_bytes": 4537,
+      "sha256": "6e8c1761aad51935e6f564c76a9b2aae3108c74b098c46afa398db3b8dc50e16",
+      "license_scope": "CC-BY-4.0"
+    },
+    {
+      "path": "results/tables/verde_estrito/VE03_indice_evolucao_verde_estrito_2006_2025.csv",
+      "size_bytes": 3792,
+      "sha256": "ef035c43f77f51359e61c8a881985008fee7d9d9103c404eac4b59b59184b9f6",
+      "license_scope": "CC-BY-4.0"
+    },
+    {
+      "path": "results/tables/verde_estrito/VE04_distribuicao_uf_verde_estrito_2002_2025.csv",
+      "size_bytes": 4139,
+      "sha256": "e106bdfdd4d9e06a760dd5a409fa9a5a3fa7c030889e3048c4140bbd51e12aea",
+      "license_scope": "CC-BY-4.0"
+    },
+    {
+      "path": "results/tables/verde_estrito/VE05_cobertura_municipal_verde_estrito_2002_2025_e_2025.csv",
+      "size_bytes": 5555,
+      "sha256": "4b8a6bde0fc1c81e60fb050b11c33155c991f32f359955d2ce6ba9c704ba44de",
+      "license_scope": "CC-BY-4.0"
+    },
+    {
+      "path": "results/tables/verde_estrito/VE05_top10_municipios_verde_estrito_2002_2025_e_2025.csv",
+      "size_bytes": 5882,
+      "sha256": "470e66bb62feaa9aa58a565845a5c01d0879ec3ca296ed4bd8c091d8245403d2",
+      "license_scope": "CC-BY-4.0"
+    },
+    {
+      "path": "results/tables/verde_estrito/VE06_participacao_anual_setor_bndes_verde_estrito_2002_2025.csv",
+      "size_bytes": 20766,
+      "sha256": "1bee37804c9528b9e8b7cbdc82e8500a8fc2b4500340b2ef5388290eba46ca6a",
+      "license_scope": "CC-BY-4.0"
+    },
+    {
+      "path": "results/tables/verde_estrito/VE07A_media_anual_desembolsos_verde_estrito_setor_uf_2002_2025.csv",
+      "size_bytes": 11841,
+      "sha256": "1831e52e933c29abc03c5571f6045c4838426feb01c34889fe4259b17d5804ab",
+      "license_scope": "CC-BY-4.0"
+    },
+    {
+      "path": "results/tables/verde_estrito/VE07B_media_anual_valor_contratado_verde_estrito_setor_uf_2002_2025.csv",
+      "size_bytes": 11527,
+      "sha256": "80338bce1701e67ce3b33cf9f8d8a34d34b0232f655e59897aae1f35d13cb2a5",
+      "license_scope": "CC-BY-4.0"
+    },
+    {
+      "path": "results/tables/verde_estrito/VE09_composicao_verde_estrito_por_bloco_tematico_2002_2025.csv",
+      "size_bytes": 1713,
+      "sha256": "9e98e103ba584d896cc9b3af6760fe012693d4507355e34250200d6769203353",
+      "license_scope": "CC-BY-4.0"
+    },
+    {
+      "path": "results/tables/verde_estrito/VE10A_distribuicao_uf_desembolsos_verde_estrito_por_bloco_2002_2025.csv",
+      "size_bytes": 15348,
+      "sha256": "7ad55a08d054da782a1f2aa9bc01a80d05a64a3b27415838cf1a9bbbf075dae7",
+      "license_scope": "CC-BY-4.0"
+    },
+    {
+      "path": "results/tables/verde_estrito/VE10B_distribuicao_uf_valor_contratado_verde_estrito_por_bloco_2002_2025.csv",
+      "size_bytes": 15576,
+      "sha256": "a3965f0817bdfecfa449bffc72bb2a30d71160e3a39aa94a6a20c06068066ee2",
+      "license_scope": "CC-BY-4.0"
+    },
+    {
+      "path": "scripts/auditar_governanca_bndes.py",
+      "size_bytes": 18474,
+      "sha256": "5eaa0ce8fd90551b37d2c1eaa82e8350d5a6a508af33a168410485cf819ea971",
+      "license_scope": "MIT"
+    },
+    {
+      "path": "scripts/check_repository.py",
+      "size_bytes": 7822,
+      "sha256": "bcd49994414bf6ef97538ea2c34ce87439a0a103e0c7dd323711dcfbec797a98",
+      "license_scope": "MIT"
+    },
+    {
+      "path": "scripts/executar_analise_senior_bndes.py",
+      "size_bytes": 417,
+      "sha256": "e75ea226ab0c4201092601be7a997b4c1a40b561bbaec6e7ff1a6df0a638742b",
+      "license_scope": "MIT"
+    },
+    {
+      "path": "scripts/gerar_concordancia_historica_bndes.py",
+      "size_bytes": 16466,
+      "sha256": "4ec8f8c57fbb93d9e235356bd5bdcad73c1aff79e0384fe3c4df3332ba04fa78",
+      "license_scope": "MIT"
+    },
+    {
+      "path": "scripts/graficos_fundo_clima/01_gerar_figuras_fundo_clima.py",
+      "size_bytes": 24923,
+      "sha256": "ad925913c4ceb8ac2c5a2c3526d0b728643e627c51239c59984d3466163dd43e",
+      "license_scope": "MIT"
+    },
+    {
+      "path": "scripts/graficos_verde_estrito/01_gerar_ve01_ve03.py",
+      "size_bytes": 20255,
+      "sha256": "0478147cbf1a3b724b2594e76deed863823fae2fe890348e8f323778ec45937f",
+      "license_scope": "MIT"
+    },
+    {
+      "path": "scripts/graficos_verde_estrito/03_gerar_ve04_distribuicao_uf.py",
+      "size_bytes": 13881,
+      "sha256": "d84c8494bada10943f8c5acd6080f7f66507973d726b5a23ddf05b4c2a07efa4",
+      "license_scope": "MIT"
+    },
+    {
+      "path": "scripts/graficos_verde_estrito/04_gerar_ve05_top10_municipios.py",
+      "size_bytes": 17516,
+      "sha256": "fe8a6b4e340ffda0925ff137c3a97e7700255e6f289ad5f99324dbcdf7c01310",
+      "license_scope": "MIT"
+    },
+    {
+      "path": "scripts/graficos_verde_estrito/05_renderizar_ve04_ve05_mapas.py",
+      "size_bytes": 16379,
+      "sha256": "27996cb7c76c6ef280a93f93d31a85388324e364fb161b3f47a1421c83fbcd83",
+      "license_scope": "MIT"
+    },
+    {
+      "path": "scripts/graficos_verde_estrito/06_gerar_ve06_setores.py",
+      "size_bytes": 14642,
+      "sha256": "c622c1a0f94f0fe696411a1ca25a2148cbfcd99c15cea9073a21a923788ea837",
+      "license_scope": "MIT"
+    },
+    {
+      "path": "scripts/graficos_verde_estrito/07_gerar_ve07_mapas_setor_uf.py",
+      "size_bytes": 13722,
+      "sha256": "321997c1507167459fb1ce673843d88db91b4010c3f1f9356fa9cd534d50cdbc",
+      "license_scope": "MIT"
+    },
+    {
+      "path": "scripts/graficos_verde_estrito/10_gerar_ve09_blocos_tematicos.py",
+      "size_bytes": 12060,
+      "sha256": "36d656d278259954e08aaeb82f5ee5b43603d52b8684bd2ef22b572ac6fd33e8",
+      "license_scope": "MIT"
+    },
+    {
+      "path": "scripts/graficos_verde_estrito/11_gerar_ve10_mapas_bloco_uf.py",
+      "size_bytes": 16609,
+      "sha256": "687b9eb8f40a46956c77c8b9c3f86979bb5ec90438103248ad7cec569cc64bf7",
+      "license_scope": "MIT"
+    },
+    {
+      "path": "scripts/materializar_banco_duckdb_v1.py",
+      "size_bytes": 5191,
+      "sha256": "ab00fc639de4275ff2c75dcff2a0ac6a0d02d2965bc090e3f7676e57cf2ce52c",
+      "license_scope": "MIT"
+    },
+    {
+      "path": "scripts/materializar_core_bndes_v1.py",
+      "size_bytes": 25327,
+      "sha256": "98637bf5eac1b76dfd9ec53bd93ddc75d057ea83eab8e8a48aaec46486086dfa",
+      "license_scope": "MIT"
+    },
+    {
+      "path": "sql/01_views_padronizadas.sql",
+      "size_bytes": 12975,
+      "sha256": "3252135fdbf09fe7b3a8cf1bcb827f525d3835af2e04604b096c7b43e65a2d9b",
+      "license_scope": "MIT"
+    },
+    {
+      "path": "sql/02_ddl_modelo_dimensional.sql",
+      "size_bytes": 9691,
+      "sha256": "361bfa9dd8b700359345c7998af47ae3a4f6edc376f6b6d38b42dec14c603854",
+      "license_scope": "MIT"
+    },
+    {
+      "path": "sql/03_core_bndes_v1.sql",
+      "size_bytes": 2456,
+      "sha256": "64b3871fa5338ecc25f7eff7f3357ad8fddbb4d87ba749845a7a5d2fff6d1138",
+      "license_scope": "MIT"
+    },
+    {
+      "path": "src/bndes_financiamento_verde/__init__.py",
+      "size_bytes": 60,
+      "sha256": "65306029632ebd789058568d6159770b926cea299c90511cc059e42dd7230bf8",
+      "license_scope": "MIT"
+    },
+    {
+      "path": "src/bndes_financiamento_verde/analise_senior.py",
+      "size_bytes": 66254,
+      "sha256": "f3cb236293dc3430cc0fa2968ff056ca135980a0da113a4f0e203fcd2de22303",
+      "license_scope": "MIT"
+    },
+    {
+      "path": "src/bndes_financiamento_verde/paths.py",
+      "size_bytes": 650,
+      "sha256": "d8557159d2272aabdd32b91c9fb20f33cd502c010f43d0ca3c6d789e7368165e",
+      "license_scope": "MIT"
+    },
+    {
+      "path": "src/bndes_financiamento_verde/public_methods.py",
+      "size_bytes": 2914,
+      "sha256": "c059e7088bd795502e688fcab1d905a1cf89dba66a70d3c722657cd63fc0219f",
+      "license_scope": "MIT"
+    },
+    {
+      "path": "tests/test_methodology_synthetic.py",
+      "size_bytes": 1691,
+      "sha256": "e836a4581120153659f4d1462052a1470e72e1febe3803d1ee6c634d4f39e83e",
+      "license_scope": "MIT"
+    }
+  ]
+}

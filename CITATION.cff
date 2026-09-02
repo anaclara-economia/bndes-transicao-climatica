@@ -1,0 +1,11 @@
+cff-version: 1.2.0
+message: "Se utilizar este repositório, cite-o e cite também o artigo publicado e as fontes oficiais de dados."
+title: "Dados e códigos: O BNDES no financiamento da transição climática brasileira"
+type: software
+authors:
+  - family-names: "Pereira"
+    given-names: "Wallace Marcelino"
+  - family-names: "Cabral"
+    given-names: "Ana Clara dos Santos"
+year: 2026
+license: MIT

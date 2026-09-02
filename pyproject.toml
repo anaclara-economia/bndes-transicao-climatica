@@ -1,0 +1,39 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bndes-transicao-climatica"
+version = "0.1.0"
+description = "Material reprodutível sobre financiamento do BNDES e transição climática."
+readme = "README.md"
+requires-python = ">=3.10,<3.13"
+license = {text = "MIT"}
+authors = [
+  {name = "Wallace Marcelino Pereira"},
+  {name = "Ana Clara dos Santos Cabral"},
+]
+dependencies = [
+  "duckdb>=1.5,<1.6",
+  "geobr>=1.0,<2",
+  "geopandas>=1.1,<2",
+  "matplotlib>=3.10,<4",
+  "nbformat>=5.10,<6",
+  "numpy>=2.3,<3",
+  "openpyxl>=3.1,<4",
+  "pandas>=2.3,<4",
+  "plotnine==0.15.7",
+  "pyarrow>=20,<25",
+  "requests>=2.32,<3",
+  "seaborn>=0.13,<1",
+  "xlsxwriter>=3.2,<4",
+]
+
+[project.optional-dependencies]
+notebooks = ["ipykernel>=6", "jupyterlab>=4", "notebook>=7"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]

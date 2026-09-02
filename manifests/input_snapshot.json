@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "note": "Hashes do snapshot processado usado na materialização auditada. Os arquivos não são distribuídos.",
+  "snapshot_files": [
+    {
+      "dataset": "contratos_nao_automaticos",
+      "relative_path": "data/processed/contratos_nao_automaticos_analitico.parquet",
+      "sha256": "cf79b08ede2ef4ccd2ac95fa8ebd65df1721de55241327888a466aea68a54e24",
+      "obtained_at": "2026-07-12T02:04:32.945194"
+    },
+    {
+      "dataset": "desembolsos_mensais",
+      "relative_path": "data/processed/desembolsos_mensais_analitico.parquet",
+      "sha256": "2976b3cab30851595d3f8ed7a2392641bb6154c8f607c5174ded194364574f20",
+      "obtained_at": "2026-07-12T01:56:40.084867"
+    },
+    {
+      "dataset": "operacoes_bndes_analitica",
+      "relative_path": "data/processed/operacoes_bndes_analitica.parquet",
+      "sha256": "ea3781f24768fd2784bbe0d4b5c15599426a904583d516e74175fe06d3b7269c",
+      "obtained_at": "2026-07-12T02:04:13.810406"
+    }
+  ]
+}
