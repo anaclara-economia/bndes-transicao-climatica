@@ -1,6 +1,6 @@
 # O BNDES no financiamento da transição climática brasileira
 
-Material complementar de transparência, documentação e reprodutibilidade do artigo **“O BNDES no financiamento da transição climática brasileira: trajetória, estrutura e distribuição dos recursos”**, desenvolvido por Ana Clara dos Santos Cabral (LAPED/UFPA), e publicado pelo Centro de Financiamento Climático para o Sul Global (CFC-GS).
+Este repositório reúne códigos, documentação metodológica e resultados agregados do artigo **“O BNDES no financiamento da transição climática brasileira: trajetória, estrutura e distribuição dos recursos”**, de autoria de Wallace Marcelino Pereira e Ana Clara dos Santos Cabral (LAPED/UFPA), publicado pelo Centro de Financiamento Climático para o Sul Global (CFC-GS).
 
 **Publicação:** https://cfc-gs.com.br/pt/working-papers-geral/o-bndes-no-financiamento-da-transicao-climatica-brasileira-trajetoria-estrutura-e-distribuicao-dos-recursos/
 
