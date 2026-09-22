@@ -1,6 +1,6 @@
 # O BNDES no financiamento da transição climática brasileira
 
-Material complementar de transparência, documentação e reprodutibilidade do artigo **“O BNDES no financiamento da transição climática brasileira: trajetória, estrutura e distribuição dos recursos”**, publicado pelo Centro de Financiamento Climático para o Sul Global (CFC-GS).
+Material complementar de transparência, documentação e reprodutibilidade do artigo **“O BNDES no financiamento da transição climática brasileira: trajetória, estrutura e distribuição dos recursos”**, desenvolvido pelo Laboratório de Pesquisa em Política Econômica e Desenvolvimento Produtivo (LAPED/UFPA), e publicado pelo Centro de Financiamento Climático para o Sul Global (CFC-GS).
 
 **Publicação:** https://cfc-gs.com.br/pt/working-papers-geral/o-bndes-no-financiamento-da-transicao-climatica-brasileira-trajetoria-estrutura-e-distribuicao-dos-recursos/
 
@@ -12,7 +12,7 @@ Dados brutos, bases tratadas no nível de cliente ou contrato, bancos DuckDB, CP
 
 ## Metodologia resumida
 
-O período principal é 2002–2025. Desembolsos e contratações são fluxos independentes e não devem ser somados. Valores reais são expressos em preços de junho de 2026, com o IPCA da Tabela 1737 do SIDRA/IBGE. A classificação principal distingue `Verde estrito` e `Demais operações`; registros sem identificação confirmada permanecem no denominador e em `Demais operações`.
+O período principal é 2002–2025. Desembolsos e contratações são fluxos independentes. Valores reais são expressos em preços de junho de 2026, com o IPCA da Tabela 1737 do SIDRA/IBGE. A classificação principal distingue `Verde estrito` e `Demais operações`.
 
 ## Estrutura
 
